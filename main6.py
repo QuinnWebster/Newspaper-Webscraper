@@ -1,18 +1,18 @@
-from cragAndCanyonArticles import get_summary as get_summaries_1
-from rockyMountainOutlookArticles import get_summary as get_summaries_2
+from cragAndCanyonArticles import get_summary as get_cragAndCanyon_summaries
+from rockyMountainOutlookArticles import get_summary as rockyMountainOutlook_summaries
 
 def main():
-    # Call the main function from main2.py
-    print("Top News Summaries from Source 1:")
-    summaries_1 = get_summaries_1()
+    # print("Top News Summaries from the Crag and Canyon:")
+    summaries_1 = get_cragAndCanyon_summaries()
 
     print(summaries_1)
  
     
 
-    # Call the main function from main3.py
-    #print("\nTop News Summaries from Source 2:")
-    #summaries_2 = get_summaries_2()
+    print("\nTop News Summaries from the Rocky Mountain Outlook:")
+    summaries_2 = rockyMountainOutlook_summaries()
+
+    print(summaries_2)
   
 
 if __name__ == "__main__":
